@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            justify-items: center;
+            background-color: black;
+            display: flex;
+        }
+        /* Blue  */
+        .glow-blue {
+            height: 100px;
+            width: 200px;
+            margin-top: 300px;
+            margin-left: 200px;
+
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            background: black;
+            border: 2px solid white;
+            transition: 0.5s ease;
+        }
+        .glow-blue:hover {
+            border: 2px solid #00f7ff;
+            box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff, 0 0 40px #00f7ff;
+        }
+        
+
+        /* Red  */
+        .glow-red {
+            height: 100px;
+            width: 200px;
+            margin-top: 300px;
+            margin-left: 200px;
+
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            background: black;
+            border: 2px solid white;
+            transition: 0.5s ease-in-out;
+        }
+
+        .glow-red:hover {
+            border: 2px solid #ff004c;
+            box-shadow: 0 0 10px #ff004c, 0 0 20px #ff004c, 0 0 40px #ff004c;
+        }
+        /* Yellow */
+        .glow-yellow {
+            height: 100px;
+            width: 200px;
+            margin-top: 300px;
+            margin-left: 200px;
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            background: black;
+            border: 2px solid white;
+            transition: 0.5s ease-in-out;
+        }
+
+        .glow-yellow:hover {
+            border: 2px solid #ffff00;
+            box-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 40px #ffff00;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="glow-blue"></div>
+
+    <div class="glow-red"></div>
+
+    <div class="glow-yellow"></div>
+</body>
+</html>
