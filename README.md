@@ -1,7 +1,7 @@
 
 ## <H1> CSS loaders </H1>
-<b>
 <br>
+
 ### 1. `GlowEffect.html`
 Creates three colored glowing boxes (blue, red, and yellow). Each box glows on hover using `box-shadow` and CSS transitions.
 
